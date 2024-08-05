@@ -1,0 +1,6 @@
+# KiCad
+CR-serial-backups/
+fp-info-cache
+~*.lck
+# nano
+.*.swp
