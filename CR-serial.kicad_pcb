@@ -1523,6 +1523,7 @@
 		(property "Reference" "U1"
 			(at 0 -5.8 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "490c4233-372f-4767-953c-a3142a4acdc4")
 			(effects
 				(font
@@ -2858,6 +2859,7 @@
 		(property "Reference" "D1"
 			(at 2.618 -0.1005 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1a99d0b0-e7b9-40ce-8572-fac806f1ad7c")
 			(effects
 				(font
