@@ -5219,16 +5219,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 46.99) (xy 133.35 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f8b730b-bb6b-442d-8bfb-47d51b70bc3d")
-	)
-	(wire
-		(pts
 			(xy 153.67 72.39) (xy 133.35 72.39)
 		)
 		(stroke
@@ -5316,6 +5306,16 @@
 			(type default)
 		)
 		(uuid "7b75e4f8-3959-4c0a-bb3a-149b2c61c36d")
+	)
+	(wire
+		(pts
+			(xy 133.35 46.99) (xy 153.67 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd95247-6660-4b64-8d1e-426d08e40853")
 	)
 	(wire
 		(pts
@@ -6759,7 +6759,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 158.75 100.33 180)
+		(at 158.75 97.79 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6768,7 +6769,7 @@
 		(fields_autoplaced yes)
 		(uuid "49003d97-740b-4429-b615-627a4f08bd1d")
 		(property "Reference" "J5"
-			(at 160.02 99.0599 0)
+			(at 160.02 99.0601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +6778,7 @@
 			)
 		)
 		(property "Value" "UART2"
-			(at 160.02 101.5999 0)
+			(at 160.02 96.5201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6787,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-			(at 158.75 100.33 0)
+			(at 158.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +6796,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 100.33 0)
+			(at 158.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +6805,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 158.75 100.33 0)
+			(at 158.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +6851,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 87.63 270)
+		(at 153.67 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6859,7 +6860,7 @@
 		(fields_autoplaced yes)
 		(uuid "497b2226-b3b8-4122-ab69-342d0d73e9a6")
 		(property "Reference" "#PWR018"
-			(at 147.32 87.63 0)
+			(at 147.32 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +6869,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 87.6299 90)
+			(at 149.86 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,7 +6878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 87.63 0)
+			(at 153.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +6887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 87.63 0)
+			(at 153.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +6896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 87.63 0)
+			(at 153.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6917,7 +6918,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 133.35 270)
+		(at 153.67 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6926,7 +6927,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a004da3-703c-437e-8bd8-84a6336a8829")
 		(property "Reference" "#PWR020"
-			(at 147.32 133.35 0)
+			(at 147.32 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,7 +6936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 133.3499 90)
+			(at 149.86 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +6945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 133.35 0)
+			(at 153.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +6954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 133.35 0)
+			(at 153.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,7 +6963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 133.35 0)
+			(at 153.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7388,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 110.49 270)
+		(at 153.67 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7396,7 +7397,7 @@
 		(fields_autoplaced yes)
 		(uuid "6399acbc-104f-46b6-b603-c46ba000ad18")
 		(property "Reference" "#PWR019"
-			(at 147.32 110.49 0)
+			(at 147.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7406,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 110.4899 90)
+			(at 149.86 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,7 +7415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 110.49 0)
+			(at 153.67 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,7 +7424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 110.49 0)
+			(at 153.67 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,7 +7433,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 110.49 0)
+			(at 153.67 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,7 +7736,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 158.75 123.19 180)
+		(at 158.75 120.65 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7744,7 +7746,7 @@
 		(fields_autoplaced yes)
 		(uuid "672e548a-412d-437d-a50f-6ec409127ae3")
 		(property "Reference" "J6"
-			(at 160.02 121.9199 0)
+			(at 160.02 121.9201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +7755,7 @@
 			)
 		)
 		(property "Value" "UART3_HV"
-			(at 160.02 124.4599 0)
+			(at 160.02 119.3801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +7764,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-			(at 158.75 123.19 0)
+			(at 158.75 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,7 +7773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 123.19 0)
+			(at 158.75 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +7782,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 158.75 123.19 0)
+			(at 158.75 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +7828,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 64.77 270)
+		(at 153.67 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7835,7 +7837,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a7cbc7e-59cb-425c-ae6c-97ffc5eb91c8")
 		(property "Reference" "#PWR017"
-			(at 147.32 64.77 0)
+			(at 147.32 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +7846,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 64.7699 90)
+			(at 149.86 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +7855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 64.77 0)
+			(at 153.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +7864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 64.77 0)
+			(at 153.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +7873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 64.77 0)
+			(at 153.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8227,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 158.75 54.61 180)
+		(at 158.75 52.07 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8234,7 +8237,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c50777f-39aa-4695-8f09-24d45aac285d")
 		(property "Reference" "J3"
-			(at 160.02 53.3399 0)
+			(at 160.02 53.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8243,7 +8246,7 @@
 			)
 		)
 		(property "Value" "UART0"
-			(at 160.02 55.8799 0)
+			(at 160.02 50.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +8255,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-			(at 158.75 54.61 0)
+			(at 158.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8264,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 54.61 0)
+			(at 158.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +8273,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 158.75 54.61 0)
+			(at 158.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +8662,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 158.75 77.47 180)
+		(at 158.75 74.93 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8668,7 +8672,7 @@
 		(fields_autoplaced yes)
 		(uuid "8808fa9e-8e8a-4eb4-bbde-68ba368367ed")
 		(property "Reference" "J4"
-			(at 160.02 76.1999 0)
+			(at 160.02 76.2001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8677,7 +8681,7 @@
 			)
 		)
 		(property "Value" "UART1"
-			(at 160.02 78.7399 0)
+			(at 160.02 73.6601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +8690,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-			(at 158.75 77.47 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +8699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 77.47 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +8708,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 158.75 77.47 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
