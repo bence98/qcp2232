@@ -1,0 +1,297 @@
+(footprint "ST_UQFN-8L_1.15x2.45mm_P0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ST UQFN 8 pin 0.5mm Pitch")
+	(tags "DFN ST UQFN 0.5")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3f1d9b2a-2796-4726-baef-6fce53c32dfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ST_UQFN-8L_1.15x2.45mm_P0.5mm"
+		(at 0 2.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11851f3e-aa5d-491f-a5f2-0359e36e50a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4ddac1c-8416-40af-a85b-bf1e0a8ebe6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.st.com/resource/en/datasheet/ecmf02-4cmx8.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06c8f358-5a3a-4c38-9f6b-1dfb72089ecc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e23cba07-9645-4ce7-a0c1-82cf72283d3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.6 -1.3)
+		(end -0.27 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a0199c7d-f02c-43d0-9eb4-dd9f42cffd3e")
+	)
+	(fp_line
+		(start 0.6 1.35)
+		(end -0.55 1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f589af27-1c37-43a1-b1b4-53cd26aa9586")
+	)
+	(fp_poly
+		(pts
+			(xy -0.71 -1.26) (xy -0.99 -1.26) (xy -0.71 -1.54) (xy -0.71 -1.26)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0f5cbae4-a048-44f3-9460-5fe475eece16")
+	)
+	(fp_rect
+		(start -1.05 -1.5)
+		(end 1.05 1.51)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e6848bd0-fe16-4fb1-b242-cd39e137e1a9")
+	)
+	(fp_line
+		(start -0.55 1.25)
+		(end -0.55 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1c865109-9744-40f6-827c-0c41e7000755")
+	)
+	(fp_line
+		(start -0.15 -1.2)
+		(end -0.55 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5f672fa4-1c50-43fe-b278-528df1a519f6")
+	)
+	(fp_line
+		(start -0.15 -1.2)
+		(end 0.6 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "43cb3095-c9fe-4f7f-9a5b-a9c373fcf1b0")
+	)
+	(fp_line
+		(start 0.6 -1.2)
+		(end 0.6 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3c0e79e6-a039-4fa7-aa57-44916587639a")
+	)
+	(fp_line
+		(start 0.6 1.25)
+		(end -0.55 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "52a232e4-b7aa-4ed8-944d-e3fbe4cd83c9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6844f64d-a189-4631-8686-dbece4625a8e")
+		(effects
+			(font
+				(size 0.38 0.38)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.5 -0.75)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.1 -0.3) (xy 0.1 -0.1) (xy -0.3 -0.1) (xy -0.3 0.1) (xy 0.3 0.1) (xy 0.3 -0.3)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5dd4239c-cd74-421b-8ca7-9da2abe0bbd6")
+	)
+	(pad "2" smd custom
+		(at -0.5 -0.25)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "416957de-5505-4664-b78a-19b43ef9bc1d")
+	)
+	(pad "3" smd custom
+		(at -0.5 0.25)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "75f40beb-9a74-43b2-9219-8d094a04dc18")
+	)
+	(pad "4" smd custom
+		(at -0.5 0.75)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.1 0.3) (xy 0.1 0.1) (xy -0.3 0.1) (xy -0.3 -0.1) (xy 0.3 -0.1) (xy 0.3 0.3)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "31dc9827-ae1e-400a-a3a7-4c1a333f536d")
+	)
+	(pad "5" smd custom
+		(at 0.5 0.75)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1 0.3) (xy -0.1 0.1) (xy 0.3 0.1) (xy 0.3 -0.1) (xy -0.3 -0.1) (xy -0.3 0.3)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "174223fb-781b-499e-856b-f3aa7447aae6")
+	)
+	(pad "6" smd custom
+		(at 0.5 0.25)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "2f4fc917-ddf8-414e-93cf-240b38fe8748")
+	)
+	(pad "7" smd custom
+		(at 0.5 -0.25)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "a46d3417-e05f-47e5-bcdf-dbb3992f3331")
+	)
+	(pad "8" smd custom
+		(at 0.5 -0.75)
+		(size 0.6 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1 -0.3) (xy -0.1 -0.1) (xy 0.3 -0.1) (xy 0.3 0.1) (xy -0.3 0.1) (xy -0.3 -0.3)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "09cdfb3c-a900-490e-9a6b-896693c2a8b4")
+	)
+)

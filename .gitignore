@@ -2,5 +2,6 @@
 CR-serial-backups/
 fp-info-cache
 ~*.lck
+*.bak
 # nano
 .*.swp
