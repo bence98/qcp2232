@@ -643,6 +643,14 @@
     [
       "9106c304-8c09-42ff-a431-8edd4bec763c",
       "Root"
+    ],
+    [
+      "b52b5eef-cacd-4097-a1da-57bb1cf9d067",
+      "RS232"
+    ],
+    [
+      "10ee5947-ca35-4cab-8e09-aac8737112a5",
+      "Misc"
     ]
   ],
   "text_variables": {}
