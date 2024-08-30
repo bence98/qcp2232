@@ -518,7 +518,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "VBUS"
+        "pattern": "*VBUS*"
       },
       {
         "netclass": "GND",
