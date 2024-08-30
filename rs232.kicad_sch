@@ -5,7 +5,11 @@
 	(uuid "2bd570ec-37aa-49d0-b85b-7c71bf95afa2")
 	(paper "A4")
 	(title_block
+		(title "USB-to-quad UART")
+		(date "2024-08-30")
 		(rev "rev. 2")
+		(company "TXnology")
+		(comment 1 "Engineer: Bence Csókás")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"

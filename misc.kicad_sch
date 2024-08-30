@@ -5,7 +5,11 @@
 	(uuid "9a8e1af3-757b-4f88-b920-a2bf0bde7006")
 	(paper "A4")
 	(title_block
+		(title "USB-to-quad UART")
+		(date "2024-08-30")
 		(rev "rev. 2")
+		(company "TXnology")
+		(comment 1 "Engineer: Bence Csókás")
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"

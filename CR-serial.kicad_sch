@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "USB-to-quad UART")
-		(date "2024-07-31")
+		(date "2024-08-30")
 		(rev "rev. 2")
-		(company "Prolan")
-		(comment 1 "USB")
+		(company "TXnology")
+		(comment 1 "Engineer: Bence Csókás")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x09_Pin"
