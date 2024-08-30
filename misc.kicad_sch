@@ -915,14 +915,36 @@
 		)
 	)
 	(junction
-		(at 30.48 96.52)
+		(at 33.02 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "700011d0-9a1f-4e53-ba96-f9c86fc8e64d")
+		(uuid "3d685ab3-5e4b-4263-947f-ae74b435f7c4")
+	)
+	(junction
+		(at 35.56 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5230ad60-761a-4167-8a05-62bd4854ba42")
+	)
+	(junction
+		(at 38.1 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cceae5b6-4f47-480e-bf3b-1edbffadcf4b")
 	)
 	(wire
 		(pts
-			(xy 27.94 96.52) (xy 30.48 96.52)
+			(xy 35.56 96.52) (xy 33.02 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8d402c-320b-4d02-847c-ba0386635698")
+	)
+	(wire
+		(pts
+			(xy 27.94 96.52) (xy 33.02 96.52)
 		)
 		(stroke
 			(width 0)
@@ -932,13 +954,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 96.52) (xy 33.02 96.52)
+			(xy 38.1 96.52) (xy 35.56 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1c2428c-007f-47da-8897-132c61a5cf09")
+		(uuid "98b898f1-2f54-428d-8c1b-82e4e7ec147e")
+	)
+	(wire
+		(pts
+			(xy 43.18 96.52) (xy 38.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f70055-da82-47a8-a1b3-f2ab8739cd52")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -1689,7 +1721,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 96.52 0)
+		(at 35.56 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1698,7 +1730,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a0da771-91f6-47d1-9ccf-ca1f3874eb23")
 		(property "Reference" "#PWR029"
-			(at 30.48 102.87 0)
+			(at 35.56 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1739,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 101.6 0)
+			(at 35.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 96.52 0)
+			(at 35.56 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 96.52 0)
+			(at 35.56 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 96.52 0)
+			(at 35.56 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,6 +2254,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 38.1 93.98 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd48e161-4d05-4dad-b085-a2a260f107e6")
+		(property "Reference" "H3"
+			(at 36.83 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 36.83 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f244135-6482-41c3-a216-7547cf6a430c")
+		)
+		(instances
+			(project "CR-serial"
+				(path "/9106c304-8c09-42ff-a431-8edd4bec763c/10ee5947-ca35-4cab-8e09-aac8737112a5"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 40.64 35.56 0)
 		(unit 1)
@@ -2305,7 +2403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
+		(property "Value" "M2.5"
 			(at 31.75 89.408 0)
 			(effects
 				(font
@@ -2314,7 +2412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 33.02 93.98 0)
 			(effects
 				(font
@@ -2355,6 +2453,72 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
+		(at 43.18 93.98 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e972fef2-feeb-4d6f-ac0a-4732dec91b63")
+		(property "Reference" "H4"
+			(at 41.91 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 41.91 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84fb8539-f140-4bb8-975c-e338b9697905")
+		)
+		(instances
+			(project "CR-serial"
+				(path "/9106c304-8c09-42ff-a431-8edd4bec763c/10ee5947-ca35-4cab-8e09-aac8737112a5"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 27.94 93.98 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2371,7 +2535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2"
+		(property "Value" "M2.5"
 			(at 26.67 89.408 0)
 			(effects
 				(font
@@ -2380,7 +2544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 27.94 93.98 0)
 			(effects
 				(font
