@@ -651,6 +651,10 @@
     [
       "10ee5947-ca35-4cab-8e09-aac8737112a5",
       "Misc"
+    ],
+    [
+      "112bbe73-8535-4d06-8c06-c3d0f9e5abf5",
+      "UART"
     ]
   ],
   "text_variables": {}
