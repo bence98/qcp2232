@@ -17905,8 +17905,8 @@
 			)
 		)
 		(property "Value" "Vsel"
-			(at 0 1.9 0)
-			(layer "F.Fab")
+			(at 0 -2.032 0)
+			(layer "F.SilkS")
 			(uuid "fdff82ed-5b91-406f-9c9d-41cb9e17824e")
 			(effects
 				(font
@@ -22619,7 +22619,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "f5daf9be-429d-41ed-8c22-be2aa0c898af")
-		(at 187.452 139.446 180)
+		(at 189.992 136.398 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -23453,8 +23453,8 @@
 		)
 	)
 	(gr_rect
-		(start 173.482 139.192)
-		(end 180.086 142.494)
+		(start 176.022 136.144)
+		(end 182.626 139.446)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -23487,7 +23487,7 @@
 		)
 	)
 	(gr_text "S/N:"
-		(at 180.34 137.414 0)
+		(at 182.88 134.366 0)
 		(layer "B.SilkS")
 		(uuid "5fbfb5ec-f57c-44d2-a269-ff74cd23ca1a")
 		(effects
@@ -23496,6 +23496,31 @@
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Alternate functions"
+		(at 225.298 121.539 270)
+		(layer "B.SilkS")
+		(uuid "741833ee-7af5-4951-b6f2-4c02f9da1353")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "Tx   Rx   G"
+		(at 158.242 98.044 270)
+		(layer "F.SilkS")
+		(uuid "176387f0-3bab-477a-9467-b4cce3ea4d3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "Tx Rx RS CS DT DS CD RI"
@@ -23511,7 +23536,33 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "1 2"
+	(gr_text "RI CD DS DT CS RS Rx Tx"
+		(at 211.074 147.828 0)
+		(layer "F.SilkS")
+		(uuid "77b51e3a-d67a-4e2f-b9bb-958ade7eb64d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Tx Rx RS CS DT DS CD RI"
+		(at 208.568 83.82 0)
+		(layer "F.SilkS")
+		(uuid "84887638-4f7e-4a15-8a97-03d3e8560bb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0 1"
 		(at 231.902 103.886 0)
 		(layer "F.SilkS")
 		(uuid "d78647ab-156b-4134-8a25-8f4db8a20284")
@@ -23522,6 +23573,68 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "RI CD DS DT CS RS Rx Tx"
+		(at 186.436 147.828 0)
+		(layer "F.SilkS")
+		(uuid "e4389e20-ce71-4e10-af34-d6ece866395e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Tx   Rx   G"
+		(at 158.242 112.522 270)
+		(layer "F.SilkS")
+		(uuid "f3644e1a-cae1-4aae-8b08-78130a4cb28c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text_box "		Flow Ctl	RS232	Vsel\nUART0	Y			Y\nUART1	Y			Y\nUART2	Y\nUART3	Y					Y"
+		(start 192.405 102.616)
+		(end 224.409 111.506)
+		(layer "B.SilkS")
+		(uuid "7fb5b371-2ab7-4472-9c2d-fabd2b5553fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left top mirror)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(gr_text_box "GPIO #	UART #	Tx LED	Rx LED	Tx/~Rx	CLK\n0		0		*\n1		0				*\n2		0						*\n3		0								*\n4		1		*\n5		1				*\n6		1						*\n7		1								*\n8-11	2				  - {dblquote} -\n12-15	3				  - {dblquote} -"
+		(start 179.959 111.887)
+		(end 224.409 131.191)
+		(layer "B.SilkS")
+		(uuid "f9c35394-b695-4a0b-96a5-b69727a49183")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left top mirror)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
 		)
 	)
 	(segment
