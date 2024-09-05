@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "QCP2232HV")
+		(date "2024-09-05")
+		(rev "rev. 2")
+		(company "TXnology")
+		(comment 1 "Engineer: Bence Csókás")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal)
