@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "QCP_parts")(type "KiCad")(uri "${KIPRJMOD}/QCP_parts.pretty")(options "")(descr ""))
+  (lib (name "QCP_parts")(type "KiCad")(uri "${KIPRJMOD}/QCP_parts.pretty")(options "")(descr "Protection ICs for the QCP2232 project"))
 )
