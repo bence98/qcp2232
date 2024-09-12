@@ -1169,6 +1169,12 @@
 			)
 		)
 	)
+	(junction
+		(at 247.65 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e4fd2f8-779d-4e62-9ed8-2a34a87d0594")
+	)
 	(wire
 		(pts
 			(xy 248.92 91.44) (xy 248.92 99.06)
@@ -1191,6 +1197,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 68.58) (xy 261.62 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114f8828-35fb-4e0c-b0c4-247512db69b7")
+	)
+	(wire
+		(pts
 			(xy 245.11 88.9) (xy 254 88.9)
 		)
 		(stroke
@@ -1208,6 +1224,16 @@
 			(type default)
 		)
 		(uuid "1cc54269-74c9-4fbe-88d0-d7b74c6365ed")
+	)
+	(wire
+		(pts
+			(xy 247.65 69.85) (xy 247.65 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c945686-9fac-486b-8cce-3592a04505ca")
 	)
 	(wire
 		(pts
@@ -1361,6 +1387,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 69.85) (xy 247.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba4fb0e-57dc-4dba-8156-419761f20b22")
+	)
+	(wire
+		(pts
 			(xy 252.73 91.44) (xy 254 91.44)
 		)
 		(stroke
@@ -1368,6 +1404,17 @@
 			(type default)
 		)
 		(uuid "fe6b7499-26cf-4c2f-8315-0165ab64986c")
+	)
+	(text "Capacitors should be 100 nF if using ADM202\nC8 should be DNP and C11 should be placed instead"
+		(exclude_from_sim no)
+		(at 197.104 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad35d935-2f6b-4fae-892f-643a373f4c1e")
 	)
 	(global_label "RX0"
 		(shape input)
@@ -1912,6 +1959,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 261.62 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "498fc8ba-2393-4d9d-a2a2-cf6ce14f1814")
+		(property "Reference" "#PWR056"
+			(at 261.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 261.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69ccd949-67ba-4792-ae04-cbab192835ae")
+		)
+		(instances
+			(project "CR-serial"
+				(path "/9106c304-8c09-42ff-a431-8edd4bec763c/b52b5eef-cacd-4097-a1da-57bb1cf9d067"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 259.08 88.9 180)
 		(unit 1)
@@ -1979,6 +2092,73 @@
 			(project "CR-serial"
 				(path "/9106c304-8c09-42ff-a431-8edd4bec763c/b52b5eef-cacd-4097-a1da-57bb1cf9d067"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 261.62 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "631fec01-73b8-480a-ac35-a3a14a727c98")
+		(property "Reference" "C11"
+			(at 257.048 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 259.588 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 260.6548 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 261.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2295eaac-55d0-411d-99f7-4bb00de0ecff")
+		)
+		(pin "1"
+			(uuid "52a30c64-d813-4083-bdb1-708777f94dc4")
+		)
+		(instances
+			(project "CR-serial"
+				(path "/9106c304-8c09-42ff-a431-8edd4bec763c/b52b5eef-cacd-4097-a1da-57bb1cf9d067"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2264,7 +2444,7 @@
 		(dnp no)
 		(uuid "d54408a9-8451-43f9-b10b-a2ed1f27e14b")
 		(property "Reference" "C8"
-			(at 254.508 69.088 90)
+			(at 248.666 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2452,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 254.508 71.628 90)
+			(at 248.666 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
