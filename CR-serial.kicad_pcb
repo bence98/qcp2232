@@ -10542,6 +10542,142 @@
 			)
 		)
 	)
+	(footprint "QCP_parts:Fiducial_Cross_0.5mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "49e53adc-a55c-4918-bd3c-371149a98a7a")
+		(at 171.45 87.63)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "FID1"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "eff55a3b-c8dc-4467-96ad-a81ee940a223")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "af1cb496-9347-40ca-84d6-64a652535c86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "QCP_parts:Fiducial_Cross_0.5mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55041680-9ed7-4553-b13b-e3046bd778e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9293f6a9-6cf7-4b4d-801c-f5d77c49ddba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab1b6390-ebf6-4bd3-8e98-fb6c85863eec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/10ee5947-ca35-4cab-8e09-aac8737112a5/83dcc554-185d-4252-a602-15656ac6fc0c")
+		(sheetname "Misc")
+		(sheetfile "misc.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_rect
+			(start -1 -0.25)
+			(end 1 0.25)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "c2016145-5d95-4f6d-a34e-2aeef2c32db5")
+		)
+		(fp_rect
+			(start -0.25 -1)
+			(end 0.25 1)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "ae8cfb68-1306-428e-974c-bc4948718900")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "aed93113-5f93-45bb-9ca4-70f5ef3af292")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "106a12f5-08e7-4abf-ab7b-ff6b3052a881")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6ece22dd-a872-4f84-9d7e-aefe363cfeff")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.75)
+			(clearance 0.75)
+			(uuid "8ffda284-e816-45ed-9ff5-23b897895729")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "538797d1-9064-433d-acb4-12d76433c323")
@@ -13303,6 +13439,142 @@
 			)
 		)
 	)
+	(footprint "QCP_parts:Fiducial_Cross_0.5mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "7bafd471-ff45-4d93-ab29-870fb511496a")
+		(at 171.45 143.51)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "FID3"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "1a375331-58c8-487e-8391-5cdab6d48828")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "13b60076-c62b-4ccc-8544-dafbe78bf6dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "QCP_parts:Fiducial_Cross_0.5mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d15195da-91b9-4044-be97-e38c87450285")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6009241b-2ab0-4989-9bbb-4bc14d4adfb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d303b19-e837-48aa-b6f6-16637e92bcb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/10ee5947-ca35-4cab-8e09-aac8737112a5/491f40eb-4f9f-4abf-9ba4-fa24545898c3")
+		(sheetname "Misc")
+		(sheetfile "misc.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_rect
+			(start -1 -0.25)
+			(end 1 0.25)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "1d9f3381-4b9a-4307-8a75-2682bbfe51f6")
+		)
+		(fp_rect
+			(start -0.25 -1)
+			(end 0.25 1)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "a77c825b-2661-49b9-b6ee-8367da470354")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f0c85ab2-93eb-4d40-a7d4-347831d77004")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "221e92b6-475d-4597-b89f-d3a2c1aa5c2e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ce006431-5251-4762-96e2-4a9c8492ebb0")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.75)
+			(clearance 0.75)
+			(uuid "3c2dcc71-4f06-46d8-8b41-306f9d6ab870")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7ce5bb55-35ca-47e4-9241-6e43af96d551")
@@ -14153,6 +14425,142 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "QCP_parts:Fiducial_Cross_0.5mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "91068c6b-be1c-4958-8d9d-17c0cd3f44da")
+		(at 232.41 95.25)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "FID2"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "3315fd30-4365-404a-9212-769d11788e03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "217870ac-8e55-4d47-b50d-2140ceca7d33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "QCP_parts:Fiducial_Cross_0.5mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f55a35d-0fa7-4e66-9cb4-6c116b0af10a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f84bb2d5-ca9f-4db2-8d7e-f1bb2f5468c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18e9b346-b188-4978-bd62-cd01ecabbc44")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/10ee5947-ca35-4cab-8e09-aac8737112a5/fb5a0658-7d15-4ff8-b6cc-ff572c386653")
+		(sheetname "Misc")
+		(sheetfile "misc.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_rect
+			(start -1 -0.25)
+			(end 1 0.25)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "8af335c0-8b91-481f-8f36-301504fc0b80")
+		)
+		(fp_rect
+			(start -0.25 -1)
+			(end 0.25 1)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "7f6fa1be-5061-47c8-a13a-8895f1082ee9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "477ca32c-1ab4-4274-bd27-7bdb2c770d08")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "3670eb70-90f5-46ae-8ba8-2fb313352b54")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0201a540-bf0a-4e88-a9a6-0cb561de0b4c")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.75)
+			(clearance 0.75)
+			(uuid "f11caf79-97f6-4c09-bee3-728679cf70c6")
 		)
 	)
 	(footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
